@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+nav{
+    width:100%;
+    padding:5px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 8px black;
+}
+#menu li a.nav-link{
+    padding:10px 15px;
+}
+#menu li a.nav-link:hover{
+    background-color: black;
+    color:white!important;
+}
+.dropdown-menu{
+    padding:0!important;
+    border-radius: 0!important;
+}
+li a.nav-link.active{
+    background-color: magenta;
+    color:white!important;
+}
+li a.nav-link.active:hover{
+    cursor:auto;
+    background-color: magenta!important;
+    color:white!important;
+}
+.details{
+    font-size:13px;
+    font-weight: 400;
+    text-align: justify;
+}
+.icon{
+    width:40px;
+    height:40px;
+    border:1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about img{
+    width:100%;
+    height:100%;
+}
+#services{
+    width:100%;
+    background-color: rgb(255, 189, 200);
+}
+#services .row1{
+    width:88%;
+    margin:auto;
+}
+.services-row{
+    width:100%;
+    background-color: rgb(255, 212, 220);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin:auto;
+    padding:8px 8px 0px 0px;
+}
+footer{
+    width:100%;
+    height:auto;
+    background-color: rgb(255, 51, 201);
+    color:white;
+}
+.footer-row{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin:auto;
+}
+.footer-row .footer-col{
+    width:28%;
+    box-shadow: 0px 0px 12px rgb(255, 0, 187);
+    background-color: rgb(255, 0, 187);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin:23px;
+    box-sizing: border-box;
+}
+.pic{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    font-size: 13px;
+    text-align: center;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+.report-row{
+    width:100%;
+    margin:auto;
+    padding:20px 0;
+}
+.report-row .col-md-3{
+    text-align: center;
+}
